@@ -10,50 +10,95 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid">
-  <h1>Three equal width columns</h1>
-   <div class="row">
-    <div class="col-sm col-md col-lg " style="background-color:pink;">.col</div>
+  <div class="card">
+  <div class="card-header bg-primary">Header</div>
+  <div class="card-body bg-success">
+    <div class="title">
+      hello
     </div>
-    <div class="row">
-        <div class="col-6" style="background-color:rgb(98, 167, 108);">.col</div>
-        <div class="col-6" style="background-color:blue;">.col</div>
+    <div class="text">
+      <a href="#" class="card-link">link</a>Content</div>
     </div>
-    <div class="row">
-        <div class="col-2" style="background-color:rgb(255, 179, 0);">.col</div>
-        <div class="col-4" style="background-color:rgb(208, 61, 181);">.col</div>
-        <div class="col-6" style="background-color:rgb(138, 19, 57);">.col</div>
+  <div class="card-footer bg-danger">Footer</div>
+</div>
+
+<p>Image at the top</p>
+  <div class="card" style="width:400px; height:670px">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZG4hqhJSkFCv6jCoKdn66qqJ-vhqRbPWeg&s" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Effile Tower</h4>
+      <p class="card-text">Some text</p>
+      <a href="#" class="btn btn-primary">Paris</a>
     </div>
-    <div class="row">
-        <div class="col-4" style="background-color:rgb(80, 15, 45);">.col</div>
-        <div class="col-4" style="background-color:rgb(116, 116, 209);">.col</div>
-        <div class="col-4" style="background-color:rgb(0, 255, 136);">.col</div>
+  </div>
+  <br>
+  <p>Image at the bottom </p>
+  <div class="card" style="width:400px; height:670px">
+    <div class="card-img-overlay">
+      <h4 class="card-title">Effile tower</h4>
+      <p class="card-text">Some text </p>
+      <a href="#" class="btn btn-primary stretched-link">Paris</a>
     </div>
-    <div class="row">
-        <div class="col-2" style="background-color:rgb(255, 208, 0);">.col</div>
-        <div class="col-6" style="background-color:rgb(255, 0, 230);">.col</div>
-        <div class="col-2" style="background-color:blue;">.col</div>
+    <img class="card-img-bottom" src="https://i.natgeofe.com/k/c41b4f59-181c-4747-ad20-ef69987c8d59/eiffel-tower-night.jpg?wp=1&w=1084.125&h=1627.5" alt="Card image" style="width:100%">
+  </div>
+  <div class="card-columns">
+  <div class = "card">
+    <div class = "card-header">Card Header</div>
+    <div class = "card-body">
+      <p class = "card-text">This is Card - 1</p>
     </div>
-    <div class="row">
-    <div class="col" style="background-color:rgb(149, 255, 0);">.col</div>
-    <div class="col" style="background-color:rgb(255, 81, 0);">.col</div>
-    <div class="col" style="background-color:rgb(255, 0, 149);">.col</div>
-    <div class="col" style="background-color:rgb(93, 0, 255);">.col</div>
-    <div class="col" style="background-color:rgb(0, 255, 238);">.col</div>
-    <div class="col" style="background-color:orange;">.col</div>
-    <div class="col" style="background-color:rgb(255, 0, 38);">.col</div>
-    <div class="col" style="background-color:rgb(0, 183, 255);">.col</div>
+  </div>
+  <div class = "card">
+    <div class = "card-body">
+       <p class = "card-text">This is Card - 2</p>
     </div>
-    <div class="row">
-        <div class="col-4" style="background-color:rgb(255, 0, 128);">.col</div>
-        <div class="col-1" style="background-color:rgb(0, 255, 115);">.col</div>
-        <div class="col-7" style="background-color:rgb(255, 55, 0);">.col</div>
-    </div>
-    <div class="row">
-        <div class="col-10" style="background-color:rgb(183, 255, 0);">.col</div>
-        <div class="col-2" style="background-color:rgb(255, 0, 251);">.col</div>
-        
+  </div>
+  <div class = "card">
+    <div class = "card-body">
+    <h4 class = "card-title">Card Title</h4>
+      <p class = "card-text">This is Card - 3</p>
+     </div>
     </div>
 </div>
-</body>
-</html>
+<div class="card-deck">
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <p class="card-text">Text in first card</p>
+    </div>
+  </div>
+  <div class="card bg-success">
+    <div class="card-body text-center">
+      <p class="card-text">Text in second card</p>
+    </div>
+  </div>
+  <div class="card bg-danger">
+    <div class="card-body text-center">
+      <p class="card-text">Text in third card</p>
+    </div>
+  </div>
+  </div><br>
+  <div class="card-group">
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <p class="card-text">Text in first card</p>
+    </div>
+  </div>
+  <div class="card bg-success">
+    <div class="card-body text-center">
+      <p class="card-text">Text in second card</p>
+    </div>
+  </div>
+  <div class="card bg-danger">
+    <div class="card-body text-center">
+      <p class="card-text">Text in third card</p>
+    </div>
+  </div>
+  </div><br>
+  <div class ="dropdown " style="align-items: center;">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Front end</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">HTML</a>
+<a class="dropdown-item" href="#">CSS</a>
+<a class="dropdown-item" href="#">Bootstrap</a>
+</div>
+</div>
